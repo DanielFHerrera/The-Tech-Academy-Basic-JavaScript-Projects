@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h1 id="header"></h1>
+
+	<script>
+		function animal(species, eyes, ears, nose, legs, fur) {
+			this.species = species;
+			this.eyes = eyes;
+			this.ears = ears;
+			this.nose = nose;
+			this.legs = legs;
+			this.fur = fur;
+			document.write("<br><br>Species: " + this.species);
+			document.write("<br>Eyes: " + this.eyes);
+			document.write("<br>Ears: " + this.ears);
+			document.write("<br>Nose: " + this.nose);
+			document.write("<br>Legs: " + this.legs);
+			document.write("<br>Fur: " + this.fur);
+
+		};
+
+		var zebra = new animal("zebra", 2, 2, 1, 4, true);
+		var zebra = new animal("snake", 2, 0, 1, 0, false);
+
+
+
+
+	</script>
+
+</body>
+</html>

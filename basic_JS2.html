@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h1 id="header"></h1>
+
+	<script>
+		var language = "Javascript";
+
+		function myFunction(lang){
+			this.lang = lang;
+			console.log("Hello, welcome to " + this.lang);
+
+		};
+
+		var Test = new myFunction("html");
+		var Test2 = new myFunction("Python");
+		var Test3 = new myFunction(language);
+	</script>
+
+</body>
+</html>
